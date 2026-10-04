@@ -4,23 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
+<meta name="color-scheme" content="dark">
 <title>FMOL Delivery Recovery Review</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
+/* Dark by default for every viewer. */
 /* Layout: one long scroll with a sticky section nav. Hero pairs the headline with an IV bag that fills to the on-time rate; every later section is one finding with one chart. */
 :root{
-  --bg:#F3F6F9; --surface:#FFFFFF; --fg:#0E2033; --muted:#51647A; --line:#D5DDE6;
-  --teal:#0B7A94; --alert:#BE4A12; --alert-soft:#F6DFD2; --band:#0E2033; --band-fg:#EAF1F7; --band-muted:#A9BBCD; --band-line:#2B4259;
+  --bg:#08121E; --surface:#0F1E2F; --fg:#E7EEF5; --muted:#9AAEC2; --line:#223548;
+  --teal:#5FC4DC; --alert:#FF8F55; --alert-soft:#3A2418; --band:#0F2236; --band-fg:#EAF1F7; --band-muted:#9FB3C7; --band-line:#2B4259;
   --display:'Bricolage Grotesque','Arial Narrow',Arial,sans-serif; --body:'IBM Plex Sans',Arial,sans-serif; --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  color-scheme:dark;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#08121E; --surface:#0F1E2F; --fg:#E7EEF5; --muted:#9AAEC2; --line:#223548;
-  --teal:#5FC4DC; --alert:#FF8F55; --alert-soft:#3A2418; --band:#0F2236; --band-fg:#EAF1F7; --band-muted:#9FB3C7; --band-line:#2B4259; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#08121E; --surface:#0F1E2F; --fg:#E7EEF5; --muted:#9AAEC2; --line:#223548;
-  --teal:#5FC4DC; --alert:#FF8F55; --alert-soft:#3A2418; --band:#0F2236; --band-fg:#EAF1F7; --band-muted:#9FB3C7; --band-line:#2B4259; color-scheme:dark}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:72px}
 body{background:var(--bg);color:var(--fg);font:400 18px/1.55 var(--body);margin:0;padding-inline:0}
